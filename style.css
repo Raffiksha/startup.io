@@ -1,0 +1,52 @@
+html{
+    height: 100%;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    background: url(laptop_keyboard_glow_170138_1920x1080.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body{
+    background-color: transparent;
+    height: 100%;
+}
+
+h1{
+    font-size: 3rem;
+    color: grey;
+}
+
+hr {
+    margin: 20px auto;
+    color: #F05F44;
+    border: 3px solid #F05F44;
+    max-width: 65px;
+    opacity: 1;  
+}
+
+.buffer{
+    height: 10rem;
+}
+
+.btn{
+    font-weight: 700;
+    border-radius: 300px;
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+}
+
+.btn-primary{
+    background-color: #F05F44 ;
+    border-color: #F05F44 ;
+}
+
+.btn-primary:hover{
+background-color: #b6432e;
+border-color: #b6432e;
+border-width: 5px;
+}
